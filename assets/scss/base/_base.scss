@@ -1,0 +1,26 @@
+//加入img、ul、ul格式設定
+body{
+    letter-spacing: 2%;
+    line-height: 1.5;
+}
+
+img{
+    max-width:100%; 
+    height:auto;
+    display:block; 
+}
+
+*,*:before,*:after{
+    box-sizing:border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  ul,li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
