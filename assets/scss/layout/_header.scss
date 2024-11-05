@@ -1,4 +1,9 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.navbar-shadows{
+  box-shadow: 0px 2px 40px 0px rgba(0, 104, 255, 0.1);
+}
+
+.custom-dropdown-position .dropdown-menu{
+  top: 60px; /* 控制從頂部的距離 */
+  left: auto;
+  right: auto;
 }
