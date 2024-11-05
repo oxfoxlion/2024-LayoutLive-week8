@@ -344,15 +344,36 @@ $dark:          $gray-900 !default;
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
-  "primary":    $primary,
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark
-) !default;
+  "primary": $primary,
+  "primary-100": $primary-100,
+  "primary-80": $primary-80,
+  "primary-60": $primary-60,
+  "primary-40": $primary-40,
+  "primary-10": $primary-10,
+  "secondary": $secondary,
+  "success": $success,
+  "success-100": $success-100,
+  "success-20": $success-20,
+  "success-10": $success-10,
+  "info": $info,
+  "info-100": $info-100,
+  "info-20": $info-20,
+  "info-10": $info-10,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+  "alert": $alert,
+  "alert-100": $alert-100,
+  "alert-20": $alert-20,
+  "alert-10": $alert-10,
+  "neutral-100": $neutral-100,
+  "neutral-80": $neutral-80,
+  "neutral-60": $neutral-60,
+  "neutral-40": $neutral-40,
+  "neutral-10": $neutral-10,
+  "neutral-0": $neutral-0,
+  ) !default;
 // scss-docs-end theme-colors-map
 
 // scss-docs-start theme-text-variables
