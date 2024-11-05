@@ -299,7 +299,7 @@ $cyans: (
 
 // scss-docs-start theme-color-variables
 //主要色primary
-$primary-120: #003BB7;
+$primary: #003BB7;
 $primary-100: #0068FF;
 $primary-80: #3F95FF;
 $primary-60: #66B1FF;
@@ -308,21 +308,20 @@ $primary-10: #E5F4FF;
 
 //語意輔助色Semantic
 
-$success-120:#48970F;
+$success:#48970F;
 $success-100:#7CD31F;
 $success-20:#DDFAA5;
 $success-10:#F0FCD1;
 
-$info-120:#1566B5;
+$info:#1566B5;
 $info-100:#2AAFFC;
 $info-20:#A9EFFE;
 $info-10:#D4F9FE;
 
- $alert-120: #B71D4F;
+ $alert: #B71D4F;
  $alert-100: #FF3A55;
  $alert-20: #FFBBB0;
  $alert-10: #FFE0D7;
-
 
  $neutral-100:#000000;
  $neutral-80:#4B4B4B;
@@ -330,14 +329,15 @@ $info-10:#D4F9FE;
  $neutral-40:#ECECEC;
  $neutral-10:#F9F9F9;
  $neutral-0:#FFFFFF; 
+
 // $primary:       $blue !default;
-// $secondary:     $gray-600 !default;
+$secondary:     $gray-600 !default;
 // $success:       $green !default;
 // $info:          $cyan !default;
-// $warning:       $yellow !default;
-// $danger:        $red !default;
-// $light:         $gray-100 !default;
-// $dark:          $gray-900 !default;
+$warning:       $yellow !default;
+$danger:        $alert !default;
+$light:         $gray-100 !default;
+$dark:          $gray-900 !default;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
